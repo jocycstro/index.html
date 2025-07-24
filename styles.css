@@ -1,0 +1,66 @@
+:root{
+  --approved: #3B5F41; /* verde olivo oscuro */
+  --available: #9EB89D;
+  --pending: #F3E9DB; /* beige */
+  --text-on-approved: #fff;
+  --text-on-available: #000;
+  --text-on-pending: #000;
+  --gap: 1rem;
+  --radius: 10px;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, sans-serif;
+}
+body{
+  margin: 0;
+  background: #faf9f7;
+  color: #222;
+}
+header, footer{
+  padding: 1rem;
+  text-align: center;
+}
+main{
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 1rem;
+}
+.semester{
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
+  padding: .75rem;
+}
+.semester h2{
+  margin: .2rem 0 1rem;
+  text-align: center;
+}
+.course{
+  list-style: none;
+  background: var(--pending);
+  color: var(--text-on-pending);
+  margin: .4rem 0;
+  padding: .6rem .7rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: .15rem;
+}
+.course.available{
+  background: var(--available);
+  color: var(--text-on-available);
+}
+.course.approved{
+  background: var(--approved);
+  color: var(--text-on-approved);
+  text-decoration: line-through;
+}
+.course .code{
+  font-weight: 600;
+  font-size: .85rem;
+  opacity: .8;
+}
+.course .sct{
+  font-size: .75rem;
+  opacity: .7;
+}

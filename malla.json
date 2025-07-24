@@ -1,0 +1,516 @@
+[
+  {
+    "semester": "I",
+    "courses": [
+      {
+        "code": "AGRO085",
+        "name": "PRÁCTICA DE INDUCCIÓN PROFESIONAL",
+        "sct": 5,
+        "prereq": []
+      },
+      {
+        "code": "CIDI115",
+        "name": "EXPRESIÓN ORAL Y ESCRITA",
+        "sct": 2,
+        "prereq": []
+      },
+      {
+        "code": "CITI045",
+        "name": "PRINCIPIOS DE GEOGRAFÍA FÍSICA",
+        "sct": 5,
+        "prereq": []
+      },
+      {
+        "code": "ICML035",
+        "name": "FUNDAMENTOS DE BIOLOGÍA",
+        "sct": 5,
+        "prereq": []
+      },
+      {
+        "code": "MATM037",
+        "name": "ÁLGEBRA",
+        "sct": 6,
+        "prereq": []
+      },
+      {
+        "code": "QUIM040",
+        "name": "QUÍMICA GENERAL",
+        "sct": 6,
+        "prereq": []
+      }
+    ]
+  },
+  {
+    "semester": "II",
+    "courses": [
+      {
+        "code": "AGRO100",
+        "name": "PRÁCTICA DE CADENAS AGROALIMENTARIAS",
+        "sct": 5,
+        "prereq": [
+          "AGRO085"
+        ]
+      },
+      {
+        "code": "CAEV092",
+        "name": "BOTÁNICA AGRÍCOLA",
+        "sct": 4,
+        "prereq": [
+          "ICML035"
+        ]
+      },
+      {
+        "code": "CIDI024",
+        "name": "INGLÉS",
+        "sct": 3,
+        "prereq": []
+      },
+      {
+        "code": "DYRE070",
+        "name": "EDUCACIÓN FÍSICA Y SALUD",
+        "sct": 2,
+        "prereq": []
+      },
+      {
+        "code": "EAGR150",
+        "name": "ECONOMÍA APLICADA",
+        "sct": 5,
+        "prereq": []
+      },
+      {
+        "code": "MATM124",
+        "name": "CÁLCULO",
+        "sct": 7,
+        "prereq": [
+          "MATM037"
+        ]
+      },
+      {
+        "code": "QUIM125",
+        "name": "QUÍMICA ORGÁNICA",
+        "sct": 6,
+        "prereq": [
+          "QUIM040"
+        ]
+      }
+    ]
+  },
+  {
+    "semester": "III",
+    "courses": [
+      {
+        "code": "AGRO160",
+        "name": "PRÁCTICA DE LA ESPECIALIDAD",
+        "sct": 4,
+        "prereq": [
+          "AGRO100"
+        ]
+      },
+      {
+        "code": "BIMI125",
+        "name": "BIOQUÍMICA",
+        "sct": 6,
+        "prereq": [
+          "QUIM125"
+        ]
+      },
+      {
+        "code": "CIDI093",
+        "name": "INGLÉS II",
+        "sct": 4,
+        "prereq": [
+          "CIDI024"
+        ]
+      },
+      {
+        "code": "EAGR140",
+        "name": "TALLER DE LIDERAZGO Y EMPRENDIMIENTO",
+        "sct": 2,
+        "prereq": []
+      },
+      {
+        "code": "ELECT30",
+        "name": "ELECTIVO DE BACHILLERATO 1",
+        "sct": 4,
+        "prereq": []
+      },
+      {
+        "code": "PSVE100",
+        "name": "AGROECOLOGÍA",
+        "sct": 4,
+        "prereq": [
+          "CITI045"
+        ]
+      },
+      {
+        "code": "PSVE155",
+        "name": "GENÉTICA",
+        "sct": 5,
+        "prereq": [
+          "ICML035"
+        ]
+      }
+    ]
+  },
+  {
+    "semester": "IV",
+    "courses": [
+      {
+        "code": "AGRO177",
+        "name": "PRINCIPIOS DE INGENIERÍA DE PROCESOS AGROALIMENTARIOS",
+        "sct": 3,
+        "prereq": [
+          "AGRO160"
+        ]
+      },
+      {
+        "code": "BIMI118",
+        "name": "MICROBIOLOGÍA",
+        "sct": 5,
+        "prereq": [
+          "BIMI125"
+        ]
+      },
+      {
+        "code": "ELECT31",
+        "name": "ELECTIVO DE BACHILLERATO 2",
+        "sct": 4,
+        "prereq": []
+      },
+      {
+        "code": "FSCA099",
+        "name": "FÍSICA",
+        "sct": 4,
+        "prereq": [
+          "MATM124"
+        ]
+      },
+      {
+        "code": "PRAN122",
+        "name": "FISIOLOGÍA ANIMAL",
+        "sct": 5,
+        "prereq": [
+          "BIMI125"
+        ]
+      },
+      {
+        "code": "PRAN175",
+        "name": "SISTEMAS AGROALIMENTARIOS",
+        "sct": 5,
+        "prereq": []
+      },
+      {
+        "code": "PSVE165",
+        "name": "FISIOLOGÍA VEGETAL",
+        "sct": 5,
+        "prereq": [
+          "BIMI125"
+        ]
+      }
+    ]
+  },
+  {
+    "semester": "V",
+    "courses": [
+      {
+        "code": "AGRO193",
+        "name": "PRÁCTICA DE HABILIDADES Y DESTREZAS I",
+        "sct": 5,
+        "prereq": []
+      },
+      {
+        "code": "EAGR170",
+        "name": "MARKETING AGROALIMENTARIO",
+        "sct": 5,
+        "prereq": [
+          "EAGR150"
+        ]
+      },
+      {
+        "code": "IIAS134",
+        "name": "EDAFOLOGÍA",
+        "sct": 5,
+        "prereq": [
+          "CITI045"
+        ]
+      },
+      {
+        "code": "IIAS136",
+        "name": "INGENIERÍA AGRÍCOLA",
+        "sct": 5,
+        "prereq": [
+          "FSCA099"
+        ]
+      },
+      {
+        "code": "PRAN130",
+        "name": "NUTRICIÓN ANIMAL",
+        "sct": 5,
+        "prereq": [
+          "PRAN122"
+        ]
+      },
+      {
+        "code": "PSVE146",
+        "name": "ECOFISIOLOGÍA DE CULTIVOS",
+        "sct": 5,
+        "prereq": [
+          "PSVE165"
+        ]
+      }
+    ]
+  },
+  {
+    "semester": "VI",
+    "courses": [
+      {
+        "code": "AGRO195",
+        "name": "PRÁCTICA DE HABILIDADES Y DESTREZAS II",
+        "sct": 0,
+        "prereq": []
+      },
+      {
+        "code": "ELECT20",
+        "name": "OPTATIVO PROFESIONAL 1",
+        "sct": 0,
+        "prereq": []
+      },
+      {
+        "code": "IIAS138",
+        "name": "FERTILIDAD Y FERTILIZANTES",
+        "sct": 0,
+        "prereq": [
+          "PSVE146"
+        ]
+      },
+      {
+        "code": "IIAS142",
+        "name": "RECURSOS NATURALES",
+        "sct": 0,
+        "prereq": []
+      },
+      {
+        "code": "PRAN132",
+        "name": "ALIMENTACIÓN ANIMAL",
+        "sct": 0,
+        "prereq": [
+          "PRAN130"
+        ]
+      },
+      {
+        "code": "PSVE144",
+        "name": "PATOLOGÍA VEGETAL",
+        "sct": 0,
+        "prereq": []
+      },
+      {
+        "code": "PSVE148",
+        "name": "ENTOMOLOGÍA",
+        "sct": 0,
+        "prereq": [
+          "ICML035"
+        ]
+      }
+    ]
+  },
+  {
+    "semester": "VII",
+    "courses": [
+      {
+        "code": "EAGR172",
+        "name": "ADMINISTRACIÓN AGRÍCOLA",
+        "sct": 0,
+        "prereq": []
+      },
+      {
+        "code": "EAGR174",
+        "name": "DESARROLLO RURAL",
+        "sct": 0,
+        "prereq": []
+      },
+      {
+        "code": "ELECT21",
+        "name": "OPTATIVO PROFESIONAL 2",
+        "sct": 0,
+        "prereq": []
+      },
+      {
+        "code": "IIAS140",
+        "name": "RIEGO Y DRENAJE",
+        "sct": 0,
+        "prereq": [
+          "IIAS134"
+        ]
+      },
+      {
+        "code": "PRAN134",
+        "name": "MANEJO DE PRADERAS",
+        "sct": 0,
+        "prereq": [
+          "IIAS138"
+        ]
+      },
+      {
+        "code": "PSVE199",
+        "name": "ANÁLISIS DE DATOS Y ESTADÍSTICA AGROALIMENTARIA",
+        "sct": 0,
+        "prereq": []
+      }
+    ]
+  },
+  {
+    "semester": "VIII",
+    "courses": [
+      {
+        "code": "AGRO295",
+        "name": "ANTEPROYECTO DE INVESTIGACIÓN",
+        "sct": 0,
+        "prereq": []
+      },
+      {
+        "code": "EAGR176",
+        "name": "FORMULACIÓN Y EVALUACIÓN DE PROYECTOS",
+        "sct": 0,
+        "prereq": []
+      },
+      {
+        "code": "PRAN202",
+        "name": "PRODUCCIÓN ANIMAL",
+        "sct": 0,
+        "prereq": [
+          "PRAN132"
+        ]
+      },
+      {
+        "code": "PSVE170",
+        "name": "MANEJO DE PLAGAS, ENFERMEDADES Y MALEZAS",
+        "sct": 0,
+        "prereq": [
+          "PSVE148",
+          "PSVE144"
+        ]
+      },
+      {
+        "code": "PSVE172",
+        "name": "FRUTICULTURA",
+        "sct": 0,
+        "prereq": [
+          "PSVE146"
+        ]
+      },
+      {
+        "code": "PSVE218",
+        "name": "FITOTECNIA",
+        "sct": 0,
+        "prereq": [
+          "PSVE146"
+        ]
+      }
+    ]
+  },
+  {
+    "semester": "IX",
+    "courses": [
+      {
+        "code": "AGRO199",
+        "name": "PRÁCTICA PROFESIONAL",
+        "sct": 0,
+        "prereq": [
+          "AGRO295",
+          "PSVE218",
+          "EAGR176",
+          "PSVE172",
+          "PSVE170",
+          "PRAN202"
+        ]
+      },
+      {
+        "code": "AGRO210",
+        "name": "GIRA DE ESTUDIOS DE SISTEMAS AGROPECUARIOS",
+        "sct": 0,
+        "prereq": [
+          "AGRO295",
+          "PSVE218",
+          "EAGR176",
+          "PSVE172",
+          "PSVE170",
+          "PRAN202"
+        ]
+      },
+      {
+        "code": "EAGR218",
+        "name": "TALLER DE EMPLEO Y EMPRENDIMIENTO",
+        "sct": 0,
+        "prereq": [
+          "EAGR140"
+        ]
+      },
+      {
+        "code": "ELECT71",
+        "name": "OPTATIVO PROFUNDIZACIÓN 1",
+        "sct": 0,
+        "prereq": []
+      },
+      {
+        "code": "ELECT72",
+        "name": "OPTATIVO PROFUNDIZACIÓN 2",
+        "sct": 0,
+        "prereq": []
+      },
+      {
+        "code": "ELECT73",
+        "name": "OPTATIVO PROFUNDIZACIÓN 3",
+        "sct": 0,
+        "prereq": []
+      },
+      {
+        "code": "ELECT74",
+        "name": "OPTATIVO PROFUNDIZACIÓN 4",
+        "sct": 0,
+        "prereq": []
+      }
+    ]
+  },
+  {
+    "semester": "X",
+    "courses": [
+      {
+        "code": "AGRO297",
+        "name": "MEMORIA DE TÍTULO",
+        "sct": 0,
+        "prereq": [
+          "9 primeros semestres aprobados"
+        ]
+      },
+      {
+        "code": "ELECT75",
+        "name": "OPTATIVO PROFUNDIZACIÓN 5",
+        "sct": 0,
+        "prereq": []
+      },
+      {
+        "code": "ELECT76",
+        "name": "OPTATIVO PROFUNDIZACIÓN 6",
+        "sct": 0,
+        "prereq": []
+      }
+    ]
+  },
+  {
+    "semester": "Extra",
+    "courses": [
+      {
+        "code": NaN,
+        "name": NaN,
+        "sct": 0,
+        "prereq": []
+      },
+      {
+        "code": NaN,
+        "name": NaN,
+        "sct": 151,
+        "prereq": []
+      }
+    ]
+  }
+]
